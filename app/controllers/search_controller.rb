@@ -12,4 +12,10 @@ class SearchController < ApplicationController
     # json_response = conn.get('characters')
     # data = JSON.parse(json_response.body, symbolize_names: true)
   end
+
+  # private
+  #
+  # def house_params
+  #   params.permit(:house)
+  # end
 end
