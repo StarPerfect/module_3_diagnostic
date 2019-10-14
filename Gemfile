@@ -20,7 +20,6 @@ group :development, :test do
   gem 'launchy'
   gem 'rspec-rails'
   gem 'shoulda-matchers'
-  gem 'webmock'
 end
 
 group :test do
