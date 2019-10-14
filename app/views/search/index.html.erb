@@ -1,6 +1,7 @@
 <h1>Order of the Phoenix Member Search</h1>
-<p><i>Found <%= @facade.members.count %> members</i></p>
-<% @facade.members.each do |member| %>
+<%# <%= binding.pry %> %>
+<p><i>Found <%= facade.members.count %> members</i></p>
+<% facade.members.each do |member| %>
   <b><%= member.name %></b>
   <br />House: <%= member.house %>
   <br />Role: <%= member.role %>
