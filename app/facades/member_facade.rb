@@ -4,6 +4,7 @@ class MemberFacade
   end
 
   def members
+    binding.pry
     @service.get_member_data.map do |data|
       Member.new(data)
     end
